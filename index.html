@@ -35,7 +35,7 @@
 <body class="poppins-font">
     <header class="container mx-auto">
         <!-- navbar -->
-        <div style="border-radius: 600px;" class="nav flex justify-around items-center bg-[#F85559] my-12 py-6">
+        <div style="border-radius: 600px;" class="nav flex-col md:flex-row lg:flex-row flex justify-around items-center bg-[#F85559] my-12 py-6">
           <div>
             <ul class="flex gap-8 text-white">
               <li>Home</li>
@@ -55,15 +55,16 @@
             <i class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
+
         
         <!-- slider -->
-        <div class="carousel w-full">
+        <div class="carousel lg:w-full">
             <!-- first slide -->
-            <div id="slide1" class="carousel-item relative w-full">
-                <img src="images/banner1.png" class="w-full hero-overlay bg-gradient-to-b from-gray-900 to-transparent bg-opacity-60" />
+            <div id="slide1" class="carousel-item relative lg:w-full">
+                <img src="images/banner1.png" class="lg:w-full hero-overlay bg-gradient-to-b from-gray-900 to-transparent bg-opacity-60" />
                 <div class="absolute inset-0 bg-gradient-to-b from-gray-900 to-transparent bg-opacity-60"></div>
               <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white space-y-5">
-                <h2 class="text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h2>
+                <h2 class="lg:text-7xl text-4xl font-extrabold">Exotic tastes at your <br> doorstep</h2>
                 <p class="text-lg font-medium pb-2">We supply highly quality organic products</p>
                 <button class="btn bg-[#F85559] text-white rounded lg border-0">Shop Now</button>
               </div>
@@ -117,7 +118,7 @@
           </div>
           <!-- poster site -->
 
-          <div class="flex items-center justify-center gap-20 relative p-10 bg-white mx-auto -mt-20 w-4/5">
+          <div class="lg:flex hidden items-center justify-center gap-20 relative p-10 bg-white mx-auto -mt-20 w-4/5">
             <div>
               <img src="images/fruit1.png" alt="">
               <p class="text-center">Strawberry</p>
@@ -143,7 +144,7 @@
     <main>
         <!-- deal of the day -->
         <section class="container mx-auto py-32">
-            <div class="flex justify-between space-x-5">
+            <div class="flex flex-col md:flex-row lg:flex-row justify-between space-x-5">
                 <div>
                     <h3 class="text-5xl font-extrabold pb-6">Deal of the day</h3>
                     <p class="font-medium text-[#12121299]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -172,7 +173,7 @@
             </div>
 
             <!-- card section -->
-            <div class="flex py-12 gap-6">
+            <div class="flex flex-col md:flex-row lg:flex-row py-12 gap-6">
                 <!-- first card -->
                 <div class="card w-96 border-2 [#1212121A] py-12">
                     <figure><img src="images/fruit6.png" alt=""/></figure>
@@ -398,7 +399,7 @@
               <div class="">
                 <h1 class="text-5xl font-extrabold text-white pt-32">Meet the team section</h1>
                 <p class="font-medium text-sm my-6 text-white pb-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
-                <div class="flex gap-24">
+                <div class="flex flex-col md:flex-row lg:flex-row gap-24">
                   <div class="text-white justify-center">
                     <img class="mx-auto" src="images/member1.png" alt="">
                     <h5 class="text-2xl font-bold pt-8">Awlad Hossain</h5>
